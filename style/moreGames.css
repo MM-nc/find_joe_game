@@ -1,0 +1,133 @@
+/* #moreGames {} */
+
+.starGamesHeader {
+    width: 330px;
+    height: 60px;
+    position: relative;
+}
+
+.starGamesHeader>img {
+    width: 330px;
+    height: 60px;
+}
+
+.starGamesHeader>span>img:nth-child(1) {
+    /* width: 30; */
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.starGamesHeader>span>img:nth-child(2) {
+    /* width: 60; */
+    height: 40px;
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+#moreGames>.moreGameSection>img {
+    width: 330px;
+    height: 640px;
+
+}
+
+.moreGameSection {
+    position: relative;
+}
+
+.moreGameSection>span {
+    position: absolute;
+}
+
+.moreGameSection>span>img {
+    width: 50px;
+    height: 40px;
+}
+
+.moreGameSection>span>img:nth-child(1) {
+    position: absolute;
+    right: 10px;
+    top: 90px;
+}
+
+.moreGameSection>span>img:nth-child(2) {
+    position: absolute;
+    right: 65px;
+    top: 90px;
+}
+
+.moreGameSection>span>img:nth-child(3) {
+    position: absolute;
+    right: 120px;
+    top: 90px;
+}
+
+.moreGameSection>span>img:nth-child(4) {
+    position: absolute;
+    right: 65px;
+    top: 163px;
+}
+
+.moreGameSection>.consolePlug {
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    background-color: burlywood;
+    left: 80px;
+    bottom: 150px;
+}
+
+/* #gameCartOn {} */
+
+#gameCartOn>.scoreBoard {
+    width: 330px;
+    height: 100px;
+    padding: 0 0 0 10px;
+
+    background-color: antiquewhite;
+
+    /* design */
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+}
+
+#gameCartOn>.gameBoard {
+    position: relative;
+}
+
+#gameCartOn>.gameBoard>img {
+    width: 330px;
+    height: 330px;
+}
+
+#gameCartOn>.gameBoard>div {
+    width: 260px;
+    height: 210px;
+    border-radius: 30px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+}
+
+/* #gameCartOn>.gameController {
+    width: ;
+    height: ;
+} */
+
+#gameCartOn>.gameController>img:nth-child(1) {
+    position: relative;
+    width: 330px;
+    height: 200px;
+}
+
+#gameCartOn>.gameController>img:nth-child(2) {
+    width: 330px;
+    height: 270px;
+    position: absolute;
+    bottom: 30px;
+}

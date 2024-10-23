@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>find joe game</title>
     <link rel="stylesheet" href="style/globle.css">
+    <link rel="stylesheet" href="style/moreGames.css">
+    <link rel="stylesheet" href="style/footers.css">
+    <link rel="stylesheet" href="style/partOne.css">
     <script src="./script.js"></script>
 </head>
 
@@ -25,21 +28,106 @@
 
     <!-- game stage -->
     <div id="stage">
-        <video src="" id="videoIntro"></video>
+        <!-- <video src="" id="videoIntro"></video> -->
 
-        <div id="mainGame" class="show"></div>
+        <div id="mainGame" class="hide"></div>
 
-        <div id="partOne" class="hide"></div>
-        <div id="partTwe" class="hide"></div>
+        <!-- part one games -->
+        <div id="partOne" class="hide">
+            <!-- header part -->
+            <div class="starGamesHeader">
+                <img src="./img/globle/headerWood.png" alt="">
+                <span>
+                    <img src="./img/globle/backButton.png" alt="back">
+                    <img src="./img/globle/rateStarButton.png" alt="rate">
+                </span>
+            </div>
 
-        <div id="levelOne" class="hide"></div>
+
+            <!-- game choose on map -->
+            <div class="partOneMap">
+                <img src="./img/partOneSlide.png" alt="" class="map">
+
+                <span class="youCanSelect"></span>
+                <!-- <span class="lock">
+                    <img src="./img/lock.png" alt="">
+                    <img src="./img/lock.png" alt="">
+                    <img src="./img/lock.png" alt="">
+                    <img src="./img/lock.png" alt="">
+                    <img src="./img/lock.png" alt="">
+                </span> -->
+                <!-- <span class="greenTick"></span> -->
+            </div>
+            <!-- footer part -->
+            <div class="footerOnlyWood">
+                <img src="./img/globle/footerWood.png" alt="">
+            </div>
+        </div>
+
+        <!-- part twe games -->
+        <!-- این باید حذف بشه -->
+        <!-- <div id="partTwe" class="hide"></div> -->
+
+
+
+        <!-- level one  -->
+        <div id="levelOne" class="hide">
+            <img src="./img/globle/" alt="">
+            <div class="gamePlay"></div>
+            <img src="" alt="">
+        </div>
+        <!-- level twe -->
         <div id="levelTwe" class="hide"></div>
+        <!-- level three -->
         <div id="levelThree" class="hide"></div>
 
-        <div id="moreGames" class="hide"></div>
-        <div id="shooting"></div>
-        <div id="runner"></div>
-        <div id="puzzel"></div>
+
+        <!-- more Games section -->
+        <div id="moreGames" class="hide ">
+            <div class="moreGamesHeader">
+                <img src="./img/globle/headerWood.png" alt="">
+                <span>
+                    <img src="./img/globle/backButton.png" alt="back">
+                    <img src="./img/globle/rateStarButton.png" alt="rate">
+                </span>
+            </div>
+            <div class="starGameSection hide">
+                <img src="./img/moreGamesBg.png" alt="">
+                <span>
+                    <img src="./img/ducksCart.png" alt="" class="shootingCart">
+
+                    <img src="./img/dreamRunnerCart.png" alt="" class="runnerCart">
+
+                    <img src="./img/flyingDotCart.png" alt="" class="flyingCart">
+
+                    <img src="./img/platformCart.png" alt="" class="platformCart">
+                </span>
+                <div class="consolePlug"> </div>
+            </div>
+
+            <div id="gameCartOn">
+                <div class="scoreBoard">
+                    <span class="time">time: </span>
+
+                    <span class="record">record: </span>
+
+                    <span class="lastRecord">last record: </span>
+                </div>
+                <div id="gameBoard" class="gameBoard">
+                    <img src="./img/tv.png" alt="" class="tv">
+                    <div id="shooting" class="show"></div>
+                    <div id="runner" class="hide"></div>
+                    <div id="platform" class="hide"></div>
+                    <div id="flyDot" class="hide"></div>
+                </div>
+                <div class="gameController">
+                    <img src="./img/ducksGameGun.png" alt="" class="hide">
+                    <img src="./img/gameController.png" alt="" class="">
+                </div>
+            </div>
+
+        </div>
+
 
 
     </div>

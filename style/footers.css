@@ -1,0 +1,14 @@
+.footerOnlyWood {
+    width: 330px;
+    height: 80px;
+
+    /* position: relative; */
+    position: absolute;
+    bottom: 30px;
+}
+
+.footerOnlyWood>img {
+    width: 330px;
+    height: 80px;
+
+}

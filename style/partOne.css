@@ -1,0 +1,133 @@
+#partOne {
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.partOneMap {
+    /* overflow: hidden; */
+    /* box-sizing: border-box; */
+    overflow: scroll;
+    display: flex;
+    flex-flow: row wrap;
+
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.partOneMap::-webkit-scrollbar {
+    display: none;
+    /*for chrome , opera , safari*/
+
+}
+
+.partOneMap>img {
+    /* width: 330px; */
+    height: 560px;
+
+
+}
+
+.partOneMap>.youCanSelect {
+    border: 3px greenyellow dotted;
+
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+
+    display: flex;
+    position: relative;
+    z-index: 10;
+
+    bottom: 155px;
+    left: 125px;
+
+    animation: bigSmall 1s linear infinite alternate;
+}
+
+@keyframes bigSmall {
+    0% {
+        width: 35px;
+        height: 35px;
+    }
+
+    12.5% {
+        width: 40px;
+        height: 40px;
+    }
+
+    25% {
+        width: 45px;
+        height: 45px;
+    }
+
+    37.5% {
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        width: 55px;
+        height: 55px;
+    }
+
+    62.5% {
+        width: 50px;
+        height: 50px;
+    }
+
+    75% {
+        width: 45px;
+        height: 45px;
+    }
+
+
+    87.5% {
+        width: 40px;
+        height: 40px;
+    }
+
+    100% {
+        width: 35px;
+        height: 35px;
+    }
+
+}
+
+.partOneMap>.lock {
+    /* position: relative; */
+    /* width: 1605px;
+    height: 550px;
+    z-index: -1; */
+}
+
+.partOneMap>.lock>img {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    z-index: 1;
+}
+
+.partOneMap>.lock>img:nth-child(1) {
+    top: 290px;
+    left: 115px;
+}
+
+.partOneMap>.lock>img:nth-child(2) {
+    top: 162px;
+    left: 60px;
+}
+
+.partOneMap>.lock>img:nth-child(3) {
+    top: 170px;
+    left: 117px;
+}
+
+.partOneMap>.lock>img:nth-child(4) {}
+
+.partOneMap>.lock>img:nth-child(5) {}
+
+.partOneMap>.lock>img:nth-child(6) {}
