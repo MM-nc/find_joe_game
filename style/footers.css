@@ -1,4 +1,4 @@
-.footerOnlyWood {
+.footerWood {
     width: 330px;
     height: 80px;
 
@@ -7,7 +7,7 @@
     bottom: 30px;
 }
 
-.footerOnlyWood>img {
+.footerWood>img {
     width: 330px;
     height: 80px;
 
