@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#stage>#mainGame {
+    width: 330px;
+    height: 600px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+#stage>#mainGame>#topMenu {
+    width: 100%;
+    height: 13%;
+    background: url(../img/globle/slideMenuHeader.png) 50% no-repeat;
+    background-size: 100% 105%;
+    position: relative;
+}
+
+#stage>#mainGame>#topMenu>#shopButton {
+    width: 20%;
+    height: 80%;
+    background: url(../img/globle/shopButton.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 13px;
+    top: 7px;
+}
+
+#stage>#mainGame>#topMenu>#settingButton {
+    width: 20%;
+    height: 80%;
+    background: url(../img/globle/settingButton.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 251px;
+    top: 6px;
+}
+
+#stage>#mainGame>#sliderMenu {
+    border: 1px solid blue;
+    width: 400%;
+    height: 73.5%;
+    /* overflow: hidden; */
+}
+
+#stage>#mainGame>#sliderMenu>.items {
+    width: 25%;
+    height: 100%;
+    background: url(../img/globle/partOneSlide.png) 50% no-repeat;
+    background-size: 100% 101%;
+    float: left;
+}
+
+#stage>#mainGame>#sliderMenu>.part1>.img {
+    width: 81%;
+    height: 46%;
+    background: url(../img/globle/partOneSlideImg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left: 32px;
+}
+
+#stage>#mainGame>#sliderMenu>.part2>.img {
+    width: 81%;
+    height: 46%;
+    background: url(../img/globle/partTweSlideImg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left: 32px;
+    top: 1px;
+}
+
+#stage>#mainGame>#bottomMenu {
+    width: 100%;
+    height: 14%;
+    background: url(../img/globle/footerWood.png) 50% no-repeat;
+    background-size: 100% 105%;
+}
+
+#stage>#mainGame>#bottomMenu>#otherGamesButton {
+    width: 100px;
+    height: 100px;
+    background: url(../img/globle/otherGamesButtton.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    left: 215px;
+    top: -15px;
+}
