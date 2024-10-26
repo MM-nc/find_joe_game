@@ -1,6 +1,12 @@
 #partOne {
+<<<<<<< Updated upstream
     /* position: relative; */
     /* overflow: hidden; */
+=======
+    position: relative;
+    width: 100%;
+    height: 100%;
+>>>>>>> Stashed changes
 }
 
 .partOneMap {
@@ -46,7 +52,8 @@
     left: 125px;
 
     animation: bigSmall 1s linear infinite alternate;
-}
+    cursor: pointer;
+}  
 
 @keyframes bigSmall {
     0% {

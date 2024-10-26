@@ -4,11 +4,10 @@
 
     /* position: relative; */
     position: absolute;
-    bottom: 30px;
+    bottom: 1.2px;
 }
 
 .footerWood>img {
     width: 330px;
     height: 80px;
-
 }
